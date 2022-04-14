@@ -1,0 +1,31 @@
+
+/* https://assets.ccbp.in/frontend/intermediate-rwd/tajmahal-img.png */
+/* https://assets.ccbp.in/frontend/intermediate-rwd/mysore-palace-img.png */
+.bg-container {
+    background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/tajmahal-img.png");
+    height: 100vh;
+    background-size: cover;
+}
+
+@media screen and (min-width: 600px) {
+    .bg-container {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/mysore-palace-img.png");
+    }
+}
+
+img {
+    width: 450px;
+    margin: 5px;
+}
+
+@media screen and (min-width: 600px) {
+    .imgage1 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .imgage2 {
+        display: none;
+    }
+}
